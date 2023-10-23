@@ -6,7 +6,7 @@
 }
 
 .container {
-  width: 1024 px;
+  width: 1024px;
   margin: 0 auto;
   height: 100%;
 }
@@ -19,7 +19,7 @@ body {
 
 section {
   background-color: white;
-  padding: 60px, 30px;
+  padding: 60px 30px;
   border-radius: 20px;
 }
 
@@ -40,7 +40,7 @@ h2 {
   font-weight: bold;
   color: #f3735f;
   margin-top: 70px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 h3 {
@@ -56,6 +56,64 @@ h3 {
 
 header {
   background-color: white;
-  border-bottom: 1px;
-  border-color: #f3735f;
+  border-bottom: 1px solid #f3735f;
+}
+
+header img {
+  width: 200px;
+  margin: 24px 0px;
+}
+
+/* ------------------------- */
+/* -- MAIN --------------- */
+/* ------------------------- */
+
+main .container {
+  margin: 60px auto;
+}
+
+.baseline {
+  color: #6c6c6c;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.bloc {
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  border-radius: 10px;
+  background: #8a98b1;
+  width: 400px;
+  height: 45px;
+  margin: 30px auto;
+  padding: 10px;
+}
+
+.images img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: top;
+  margin: 30px 30px 0px 0px;
+}
+
+.images img:nth-of-type(3) {
+  margin: 0px 0px 0px 0px;
+}
+
+/* ------------------------- */
+/* -- FOOTER --------------- */
+/* ------------------------- */
+
+footer .credits {
+  color: #6c6c6c;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 60px;
 }
